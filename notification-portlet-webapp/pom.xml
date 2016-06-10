@@ -257,6 +257,7 @@
         <finalName>NotificationPortlet</finalName>
         <filters>
             <filter>${filters.file}</filter>
+            <filter>src/main/resources/datasource.properties</filter>
         </filters>
         <resources>
             <resource>
@@ -264,6 +265,7 @@
                 <directory>src/main/resources</directory>
                 <includes>
                     <!-- List files or patterns to be filtered here...  -->
+                    <include>**/persistence.xml</include>
                 </includes>
             </resource>
             <resource>
@@ -271,6 +273,7 @@
                 <directory>src/main/resources</directory>
                 <excludes>
                     <!-- List the same files or patterns as above here...  -->
+                    <exclude>**/persistence.xml</exclude>
                 </excludes>
             </resource>
         </resources>
