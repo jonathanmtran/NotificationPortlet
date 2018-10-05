@@ -132,6 +132,7 @@ Example:
 
 ```
 <script src="https://unpkg.com/vue@2.5.16"></script>
+<script src="https://unpkg.com/regenerator-runtime@0.12.1/runtime.js"></script>
 <script type="text/javascript" src="/NotificationPortlet/scripts/notification-modal.js"></script>
 <notification-modal filter="minPriority=1"></notification-modal>
 ```
